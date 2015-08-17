@@ -1,7 +1,7 @@
 sample-jdbc-connect
 =======
 
-A main class to test a connection a database (MySQL or SQLServer at this time)
+A main class to test a connection to a database (MySQL or SQLServer at this time)
 
 Command line example :
 
