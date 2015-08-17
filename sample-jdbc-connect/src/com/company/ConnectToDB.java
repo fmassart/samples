@@ -1,10 +1,8 @@
 package com.company;
 
-
 import java.sql.*;
 import java.util.HashMap;
 import java.util.Map;
-
 
 /**
  * Inspired from http://www.tutorialspoint.com/jdbc/jdbc-sample-code.htm.
