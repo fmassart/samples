@@ -21,7 +21,7 @@ public class ConnectToDB {
     public static final String JDBC_USERNAME_KEY = "user_key";
     public static final String JDBC_PASSWORD_KEY = "pass_key";
 
-lea    public static void main(String[] args) {
+    public static void main(String[] args) {
         ConnectToDB connectToDB = new ConnectToDB();
         Map<String, String> dbArgs = connectToDB.getArgs(args);
         connectToDB.connect(dbArgs);
