@@ -21,13 +21,7 @@ public class ConnectToDB {
     public static final String JDBC_USERNAME_KEY = "user_key";
     public static final String JDBC_PASSWORD_KEY = "pass_key";
 
-    static final String DB_URL = "jdbc:mysql://localhost/EMP";
-
-    //  Database credentials
-    static final String USER = "username";
-    static final String PASS = "password";
-
-    public static void main(String[] args) {
+lea    public static void main(String[] args) {
         ConnectToDB connectToDB = new ConnectToDB();
         Map<String, String> dbArgs = connectToDB.getArgs(args);
         connectToDB.connect(dbArgs);
